@@ -52,7 +52,7 @@ const themes = {
   light: {
     // grab all light theme colors and add white
     ...lightTheme,
-    white: "ffffff",
+    white: "#ffffff",
   },
   dark: {
     // grab all light theme colors and add white

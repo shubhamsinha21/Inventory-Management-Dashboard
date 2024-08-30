@@ -1,9 +1,8 @@
-import Image from "next/image";
+// @ -> alias refers to src directory
+import Dashboard from "@/app/dashboard/page";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      Hello
-    </main>
-  );
-}
+const Home = () => {
+  return <Dashboard />;
+};
+
+export default Home;
